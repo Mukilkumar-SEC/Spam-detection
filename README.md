@@ -1,8 +1,6 @@
 # Spam-Detection
 
-
-
-Spam-Detector-AI is a Python package for detecting and filtering spam messages using Machine Learning models. The
+Spam-Detection is a Python package for detecting and filtering spam messages using Machine Learning models. The
 package integrates with Django or any other project that uses python and offers different types of classifiers: Naive
 Bayes, Random Forest, and Support Vector Machine (SVM). Since version 2.1.0, two new classifiers have been added:
 Logistic Regression and XGBClassifier.
@@ -252,7 +250,7 @@ To use the spam detector in your Django project:
 3. Use the `is_spam` method to check if a message is spam.
 
 ```python
-from spam_detector_ai.prediction.predict import VotingSpamDetector
+from spam_detection.prediction.predict import VotingSpamDetector
 
 # Create the spam detector
 spam_detector = VotingSpamDetector()
